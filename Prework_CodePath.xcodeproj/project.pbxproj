@@ -16,6 +16,7 @@
 		DC9DDBC8288B42A900CF40FE /* Prework_CodePathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9DDBC7288B42A900CF40FE /* Prework_CodePathTests.swift */; };
 		DC9DDBD2288B42A900CF40FE /* Prework_CodePathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9DDBD1288B42A900CF40FE /* Prework_CodePathUITests.swift */; };
 		DC9DDBD4288B42A900CF40FE /* Prework_CodePathUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9DDBD3288B42A900CF40FE /* Prework_CodePathUITestsLaunchTests.swift */; };
+		DC9DDBE1288B4E0C00CF40FE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9DDBE0288B4E0C00CF40FE /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DC9DDBCD288B42A900CF40FE /* Prework_CodePathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Prework_CodePathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9DDBD1288B42A900CF40FE /* Prework_CodePathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prework_CodePathUITests.swift; sourceTree = "<group>"; };
 		DC9DDBD3288B42A900CF40FE /* Prework_CodePathUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prework_CodePathUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC9DDBE0288B4E0C00CF40FE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				DC9DDBB0288B42A600CF40FE /* AppDelegate.swift */,
+				DC9DDBE0288B4E0C00CF40FE /* SettingsViewController.swift */,
 				DC9DDBB2288B42A600CF40FE /* SceneDelegate.swift */,
 				DC9DDBB4288B42A600CF40FE /* ViewController.swift */,
 				DC9DDBB6288B42A600CF40FE /* Main.storyboard */,
@@ -261,6 +264,7 @@
 				DC9DDBB5288B42A600CF40FE /* ViewController.swift in Sources */,
 				DC9DDBB1288B42A600CF40FE /* AppDelegate.swift in Sources */,
 				DC9DDBB3288B42A600CF40FE /* SceneDelegate.swift in Sources */,
+				DC9DDBE1288B4E0C00CF40FE /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

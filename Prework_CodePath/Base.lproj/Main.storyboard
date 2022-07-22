@@ -90,7 +90,13 @@
                             <constraint firstItem="f1e-hJ-8xV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="yYm-TZ-K4V"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="fd3-m3-8P6"/>
+                    <navigationItem key="navigationItem" id="fd3-m3-8P6">
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="JSs-No-eIz">
+                            <connections>
+                                <segue destination="yvf-aY-Ymn" kind="show" id="Hk3-VR-Hen"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="billAmountTextField" destination="WLj-bN-Rmp" id="RUf-qd-c5Q"/>
                         <outlet property="tipAmountLabel" destination="mCd-UW-M1Y" id="tAH-wa-ATW"/>
@@ -101,6 +107,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="425" y="66"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="KyN-uL-WmQ">
+            <objects>
+                <viewController id="yvf-aY-Ymn" customClass="SettingsViewController" customModule="Prework_CodePath" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="83Z-T2-It3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="l9u-qd-wOX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sg7-YH-Zfg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ENh-Xc-NT0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1193" y="66"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="GJp-79-qnb">
