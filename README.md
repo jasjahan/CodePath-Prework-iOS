@@ -27,11 +27,11 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+![](https://i.imgur.com/PHZerrw.gif)
 
-![](https://i.imgur.com/nJhjrTi.gif)
+Here's a walkthrough of implemented **additional** features compatible to any devices(integrity constraints)
+![](https://i.imgur.com/qE9mNZa.gif)
 
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
